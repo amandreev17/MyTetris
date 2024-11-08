@@ -11,6 +11,7 @@
                 "-o",
                 "-I",
                 "${fileDirname}/${fileBasenameNoExtension}",
+                "/opt/homebrew/Cellar/sfml/2.6.1/include/",
                 "-lsfml-graphics",
                 "-lsfml-system",
                 "-lsfml-window",

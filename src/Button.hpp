@@ -6,10 +6,9 @@ class Button {
         sf::Sprite normalCondition;
         sf::Sprite clickCondition;
         sf::Sprite* currentSpr;
-        bool press = false;
         void setPress(bool);
     public:
         Button(sf::Vector2f location, const sf::Texture& normalCond, const  sf::Texture& clickCond);
-        bool checkClick(sf::Vector2i mouseLocation);
+        bool checkClick(bool click);
         sf::Sprite* getSprite();
 };

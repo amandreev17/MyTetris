@@ -3,7 +3,8 @@
     {
       "name": "macos-clang-arm64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "/opt/homebrew/Cellar/sfml/2.6.1/include/",
       ],
       "compilerPath": "/usr/bin/g++",
       "cStandard": "c17",
